@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>贵州贵漂科技有限公司</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=jmlYWibawYZNqI7TTqKxTQvvKpaGUqoI">
+        //v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
+        //v1.4版本及以前版本的引用方式：src="http://api.map.baidu.com/api?v=1.4&key=您的密钥&callback=initialize"
+    </script>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <div class="containor">
+        <div class="banner">
+            <div class="banner-con">
+                <div class="video">
+                    <!--<embed src="video/前世情人.mp4" align="middle" type="application/x-shockwave-flash">-->
+                    <video id="video" src="video/前世情人.mp4">Your browser does not support the video tag.</video>
+                    <div class="pop">
+                        <span class="play"></span>
+                    </div>
+                </div>
+                <div class="ewm">
+                    <p class="ewm-tit">公众号:贵漂在线</p>
+                    <img src="img/ewm.jpg" alt="扫码关注">
+                </div>
+                <dl class="brand clearfix">
+                    <dt><img src="img/logo.png" alt="logo"></dt>
+                    <dd>
+                        <h2>贵州贵漂科技有限公司 <span>+关注</span></h2>
+                        <p>行业：互联网/IT</p>
+                        <p>规模：50-100人</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="con clearfix">
+            <div class="con-left">
+                <p class="active">公司介绍</p>
+                <p class="active">人才理念</p>
+                <p>招聘信息</p>
+            </div>
+            <div class="con-right">
+                <div class="company-profile">
+                    <h3>公司简介</h3>
+                    <div class="company-profile-txt">
+                        <p>项目背景：2015年1月，在国务院常务会议上， 李克强总理提出，要顺应网络时代推动大众创业、万众创新的形势，构建面向人人的“众创空间”等创业服务平台。2015年3月，国务院出台《关于发展众创空间推进大众创新创业的指导意见》。2015年9月，国务院总理李克强主持召开国务院常务会议，决定设立国家中小企业发展基金。</p>
+                        <p>项目介绍：借贵州发展大数据的东风，致力于运用“互联网+大数据+O2O”创新思维和技术，构建“种子（播种社区）-苗圃（哺育社区） -孵化器（孵化社区）-加速器（加速社区）-产业园（产业化社区）”的开放式创新创业孵化生态系统，打造成为引领“大众创业、万众创新”的贵州品牌。</p>
+                        <p>服务对象：
+                            <br/><span class="txt-indent">①创业者，漂在创业路上和准备创业的个人、团队或者再次创业的企业。</span>
+                            <br/><span class="txt-indent">②服务机构，为创业者提供服务的企事业单位、政府机关、投融资机构及行业组织。</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img-wrap">
+            <ul class="first-imgs clearfix">
+                <li>
+                    <img src="img/imgs_1_1.jpg" alt="">
+                    <div class="pop-bg">
+                        <div class="bg">
+                            <p>企业荣誉</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/imgs_1_2.jpg" alt="">
+                    <div class="pop-bg">
+                        <div class="bg">
+                            <p>大事记</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/imgs_1_3.jpg" alt="">
+                    <div class="pop-bg">
+                        <div class="bg">
+                            <p>我们的团队</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="second-imgs clearfix">
+                <li>
+                    <img src="img/imgs_2_1.jpg" alt="">
+                    <p class="name">杨汉乾</p>
+                    <p class="des">贵州凯华达达集团</p>
+                </li>
+                <li>
+                    <img src="img/imgs_2_2.jpg" alt="">
+                    <p class="name">李清城</p>
+                    <p class="des">十年Java开发经验</p>
+                </li>
+                <li>
+                    <img src="img/imgs_2_3.jpg" alt="">
+                    <p class="name">李胜禄</p>
+                    <p class="des">十五年打人经验</p>
+                </li>
+                <li>
+                    <img src="img/imgs_2_4.jpg" alt="">
+                    <p class="name">张敏</p>
+                    <p class="des">资深白富美</p>
+                </li>
+            </ul>
+            <ul class="third-imgs clearfix">
+                <li>
+                    <img src="img/imgs_3_1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/imgs_3_2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/imgs_3_3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="address">
+            <h3>公司地址</h3>
+            <div class="map" id="map">
+
+            </div>
+            <p class="txt">地址：贵州省贵阳市高新区长岭南路31号国家数字内容产业园3楼A区</p>
+            <p class="txt">电话：18695014456</p>
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function() {
+            /* map */
+            var sContent ="<h2 style='font-size: 20px;line-height: 20px; font-weight: normal; padding-bottom: 3px;'>贵漂科技有限公司</h2> <p style='font-size: 14px;line-height: 20px;'>贵阳市高新区长岭南路31号国家数字内容产业园3楼A区</p> <p>电话：18695014456</p>";
+            var map = new BMap.Map("map");
+            var point = new BMap.Point(106.651324, 26.62476);
+            map.centerAndZoom(point, 15);
+            map.addControl(new BMap.NavigationControl());
+            map.addControl(new BMap.ScaleControl());
+            map.addControl(new BMap.OverviewMapControl());
+            map.addControl(new BMap.MapTypeControl());
+            map.setCurrentCity("贵阳市");
+            var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
+            map.openInfoWindow(infoWindow,point); //开启信息窗口
+
+
+            $('.banner .banner-con .video .pop .play').click(function(){
+                $("video").trigger("play");//for auto play
+                $(this).parent('div').addClass('pause');
+            });
+
+            $("video").click(function(){
+                $("video").trigger("pause");
+                $('.banner .banner-con .video .pop').removeClass('pause');
+            })
+
+            /*$('.banner .banner-con .video .pop').click(function(){
+                $("video").trigger("pause");//for auto play
+                $(this).removeClass('pause');
+            });*/
+
+            $('.con .con-left p').hover(function() {
+                $(this).addClass('active');
+            }, function() {
+                $(this).removeClass('active');
+            });
+            $('.img-wrap .first-imgs li').hover(function() {
+                $(this).children('.pop-bg').stop().slideDown(500);
+            }, function() {
+                $(this).children('.pop-bg').stop().slideUp(500);
+            });
+        });
+    </script>
+</body>
+</html>
